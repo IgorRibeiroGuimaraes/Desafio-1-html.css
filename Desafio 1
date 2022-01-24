@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deasfio HTMl/CSS 1</title>
+ <link rel="stylesheet" href="desafio1/style.css">
+<style>
+    *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+  }
+
+.txt{
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+p{
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    font-family: helvetica;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.pontilhado{
+    border-right: 1px dashed #000 ;
+}
+
+#content-header{
+    background-color: #212121;
+    color: white;
+    font-family: Helvetica;
+
+}
+
+#nav {
+    display: flex;
+   justify-content: flex-end;
+    border: 10px;
+    font-size: 20px;
+    position: relative;
+left: -50px;
+}
+
+
+#box-main{
+    display: flex;
+    justify-content: center;
+    width: 300px; 
+    height: auto
+}
+
+footer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#tiacademy{
+    background-color: #212121;
+    height: 80px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+   
+   
+}
+
+.rodapé{
+    background-color: #212121;
+    height: 80px;
+    width: 100vw;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  Helvetica;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -150px;
+}
+
+.home{
+    background-color: #F9A825;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+   display: flex;
+   width: 60px;
+   position: relative;
+   left: -50px;
+   
+}
+
+
+
+.contato{
+    text-decoration: none;
+    color: white;
+    font-family:  Helvetica;
+    position: relative;
+    left: -20px;
+}
+
+
+.contato:hover{
+    text-decoration: none;
+    color: white;
+    font-family:  Helvetica;
+    background-color: red;
+}
+
+
+.sobre{
+text-decoration: none;
+color: #fff;
+font-family: Helvetica;
+position: relative;
+
+}
+
+.sobre:hover{
+text-decoration: none;
+color: #fff;
+font-family: Helvetica;
+background-color: red;
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <header id="header">
+        <div id="content-header">
+            <div id="logo">LOGO</div>
+        <nav id="nav">
+            <a class="home" href="#">Home</a>
+            <a class="contato" href="#">Contato</a>
+            <a class="sobre" href="#">Sobre</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div id="box-main">
+            <p class="estante pontilhado">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Laboriosam non voluptas, ut beatae ducimus quia recusandae quasi iure quibusdam 
+                aliquid 
+                eius accusamus architecto officia ratione ad distinctio laborum sit quidem!</p>
+        </div>
+        <div>
+            <input class="txt" type="text" type="email" name="email" value="" placeholder="e-mail">
+        </div>
+    </main>
+    <footer id="tiacademy">
+        <div class="rodapé">by Ti - ACADEMY</div>
+    </footer>
+</body>
+</html>
